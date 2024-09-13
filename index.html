@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Bitcoin TX</title>
 
     <style>
         body {
@@ -12,17 +12,35 @@
 
         }
 
+        .browser-type {
+            background-color: #6c757d;
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+            /* background-color: #212529; */
+
+            /* color: #212529; */
+            text-align: center;
+            align-content: center;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
 
         .box {
             background-color: #dddeee;
             padding: 2%;
             width: fit-content;
 
+
         }
 
         img {
             display: block;
-            margin: 0 auto;
+            margin: 5 auto;
             max-width: 100%;
             height: auto;
         }
@@ -34,11 +52,22 @@
 <body>
 
     <div class="box">
-
         <img src="img/tx.png"" width=" 150" height="150" />
 
-
+        <div id="browser-type" class="browser-type"></div>
     </div>
+
+    <script>
+        function detectBrowserType() {
+            if (window.innerWidth < 768) {
+                document.getElementById("browser-type").innerHTML = "Mobile APP coming soon";
+            } else {
+                document.getElementById("browser-type").innerHTML = "<a href='https://app.bitcoin-tx.com/'>Console</a>";
+            }
+        }
+
+        detectBrowserType();
+    </script>
 </body>
 
 </html>
