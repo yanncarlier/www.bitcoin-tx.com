@@ -56,19 +56,7 @@
 
         <div id="browser-type" class="browser-type"></div>
     </div>
-
-    <!-- <script>
-        function detectBrowserType() {
-            if (window.innerWidth < 768) {
-                document.getElementById("browser-type").innerHTML = "Mobile APP coming soon";
-            } else {
-                document.getElementById("browser-type").innerHTML = "<a href='https://app.bitcoin-tx.com/'>Console</a>";
-            }
-        }
-
-        detectBrowserType();
-    </script> -->
-
+    <script src="https://cdn.jsdelivr.net/npm/bowser@2.5.3/es5.min.js"></script>
     <script>
         function detectBrowserType() {
             const browser = bowser.getParser(window.navigator.userAgent);
