@@ -54,20 +54,25 @@
     <div class="box">
         <img src="img/tx.png"" width=" 150" height="150" />
 
-        <div id="browser-type" class="browser-type"></div>
+        <div id="message" class="browser-type"></div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bowser@2.5.3/es5.min.js"></script>
+
     <script>
-        function detectBrowserType() {
-            const browser = bowser.getParser(window.navigator.userAgent);
-            if (browser.mobile) {
-                document.getElementById("browser-type").innerHTML = "Mobile APP coming soon";
+        function isMobile() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+
+        function updateMessage() {
+            const messageElement = document.getElementById('message');
+            if (isMobile()) {
+                messageElement.innerHTML = "Mobile APP coming soon";
             } else {
-                document.getElementById("browser-type").innerHTML = "<a href='https://app.bitcoin-tx.com/'>Console</a>";
+                messageElement.innerHTML = "<a href='https://app.bitcoin-tx.com/'>Console</a>";
             }
         }
 
-        detectBrowserType();
+        // Call the function when the page loads
+        window.onload = updateMessage;
     </script>
 
 
