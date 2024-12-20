@@ -1,88 +1,68 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-<head>
-    <title>Bitcoin TX</title>
-
-    <style>
-        body {
-            background-color: #131314 !important;
-            font-size: 22px !important;
-            color: black !important;
-            margin: 5%;
-
-        }
-
-        .browser-type {
-            background-color: #6c757d;
-            color: #fff;
-            cursor: pointer;
-            text-decoration: none;
-            /* background-color: #212529; */
-
-            /* color: #212529; */
-            text-align: center;
-            align-content: center;
-
-        }
-
-        a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .box {
-            background-color: #dddeee;
-            padding: 2%;
-            width: fit-content;
-
-
-        }
-
-        img {
-            display: block;
-            margin: 5 auto;
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-
-
-
-</head>
-
-<body>
-
-    <div class="box">
-        <img src="img/btx.png"" width=" 600" height="600" />
-
-        <div id="message" class="browser-type"></div>
-    </div>
-
-    <script>
-        function isMobile() {
-            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        }
-
-        function updateMessage() {
-            const messageElement = document.getElementById('message');
-            if (isMobile()) {
-                messageElement.innerHTML = "<h2>Mobile APP coming soon</h2>";
-            } else {
-                messageElement.innerHTML = "<h2><a href='https://app.bitcoin-tx.com/'>Console</a></h2>";
-
-
-                setTimeout(function () {
-                    window.location.href = "https://app.bitcoin-tx.com";
-                }, 2000);
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bitcoin TX - Digital Assets Management</title>
+        <style>
+            body {
+                background-color: #fff !important;
+                font-size: 22px !important;
+                color: black !important;
+                margin: 10%;
+                font-family: 'Arial', sans-serif;
             }
-        }
 
-        // Call the function when the page loads
-        window.onload = updateMessage;
-    </script>
+            .box {
+                background-color: #dddeee;
+                padding: 2%;
+                width: fit-content;
+            }
 
+            .fakeTab {
+                width: 100%;
+            }
 
-</body>
+            .fakeCell {
+                display: inline-block;
+                width: 49%;
+                /* background-color: green; */
+            }
+
+            img {
+                display: block;
+                margin: 5 auto;
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="fakeTab">
+            <div class="fakeCell">
+                <div class="box"><img src="img/btx.png" width="300" height="300" /></div>
+            </div>
+            <div class="fakeCell">
+                <h1>Bitcoin TX - Digital Assets Management</h1>
+                <h2>Decentralized Multisignature Storage Solution for Digital Assets Custody</h2>
+                <br>
+            </div>
+        </div>
+        <ul>
+            <li><strong>Geographic Distribution:</strong> Assets are stored across multiple remote locations to enhance
+                security and reduce the risk of centralized failure.</li>
+            <li><strong>Secure Storage:</strong> All digital asset keys are safeguarded in both private and
+                institutional safe deposit boxes, ensuring confidentiality and protection.</li>
+            <li><strong>Fee Structure:</strong>
+                <ul>
+                    <li><em>Withdrawals:</em> A maximum fee of 1% is applied, with reductions available through a
+                        quantity discount formula.</li>
+                    <li><em>Deposits:</em> No fees are charged for deposits.</li>
+                </ul>
+            </li>
+        </ul>
+    </body>
 
 </html>
