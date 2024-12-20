@@ -20,16 +20,6 @@
                 width: fit-content;
             }
 
-            .fakeTab {
-                width: 100%;
-            }
-
-            .fakeCell {
-                display: inline-block;
-                width: 49%;
-                /* background-color: green; */
-            }
-
             img {
                 display: block;
                 margin: 5 auto;
@@ -40,21 +30,19 @@
     </head>
 
     <body>
-        <div class="fakeTab">
-            <div class="fakeCell">
-                <div class="box"><img src="img/btx.png" width="300" height="300" /></div>
-            </div>
-            <div class="fakeCell">
-                <h1>Bitcoin TX - Digital Assets Management</h1>
-                <h2>Decentralized Multisignature Storage Solution for Digital Assets Custody</h2>
-                <br>
-            </div>
+        <div>
+            <div class="box"><img src="img/btx.png" width="300" height="300" /></div>
+        </div>
+        <div>
+            <h1>Bitcoin TX - Digital assets management</h1>
+            <h2>Decentralized offline storage solution for digital assets custody</h2>
+            <br>
         </div>
         <ul>
-            <li><strong>Geographic Distribution:</strong> Assets are stored across multiple remote locations to enhance
+            <li><strong>Geographic distribution:</strong> Assets are stored across multiple remote locations to enhance
                 security and reduce the risk of centralized failure.</li>
-            <li><strong>Secure Storage:</strong> All digital asset keys are safeguarded in both private and
-                institutional safe deposit boxes, ensuring confidentiality and protection.</li>
+            <li><strong>Secure Storage:</strong> All digital asset keys are safeguarded offline in both private and
+                institutional safe deposit boxes, ensuring protection, redundancy, integrity, and confidentiality.</li>
             <li><strong>Fee Structure:</strong>
                 <ul>
                     <li><em>Withdrawals:</em> A maximum fee of 1% is applied, with reductions available through a
@@ -64,5 +52,10 @@
             </li>
         </ul>
     </body>
+    <script>
+        setTimeout(function () {
+            window.location.href = "";
+        }, 2000);
+    </script>
 
 </html>
