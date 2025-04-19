@@ -1,6 +1,6 @@
 # Documentation
 
-## Do not use any of the information below; only for demonstration purposes.
+## The information below it's only for demonstration purposes.
 ![Screenshot from 2025-04-19 16-43-24](./Screenshot from 2025-04-19 16-43-24.png)
 
 ![Screenshot from 2025-04-19 17-05-11](./Screenshot from 2025-04-19 17-05-11.png)
