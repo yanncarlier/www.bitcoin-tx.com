@@ -1,4 +1,4 @@
-# Documentation
+# Screenshots
 
 ## The information below it's only for demonstration purposes.
 ![Screenshot from 2025-04-19 16-43-24](./Screenshot from 2025-04-19 16-43-24.png)
