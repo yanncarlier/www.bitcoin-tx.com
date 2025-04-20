@@ -1,3 +1,7 @@
+
+
+## Bitcoin-tx is a Point-of-Sale (POS) Software-as-a-Service (SaaS) designed for stores and businesses to easily accept cryptocurrency payments. It’s secure, private, and self-managed, allowing you to process payments without intermediaries.
+
 # Screenshots
 
 ## The information below it's only for demonstration purposes.
