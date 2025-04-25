@@ -1,6 +1,6 @@
 
 
-## Bitcoin-tx screenshots  
+# Screenshots  
 
 ## Point-of-Sale (POS) Software-as-a-Service (SaaS) designed for stores and businesses to easily accept cryptocurrency payments. It’s secure, private, and self-managed, allowing you to process payments without intermediaries.  
 
