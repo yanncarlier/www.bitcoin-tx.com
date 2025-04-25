@@ -18,7 +18,7 @@
 
 ![Screenshot from 2025-04-19 17-09-14](./Screenshot from 2025-04-19 17-09-14.png)
 
-## Option 2: Leave the field empty to have the system automatically generate a new mnemonic. 
+## Option 2: Leave the field empty to have the system automatically generate a new mnemonic for you. 
 
 ## Option 3: Create a new mnemonic with your own tools and use it here (more complex for transaction management but safer if you are experienced).
 
