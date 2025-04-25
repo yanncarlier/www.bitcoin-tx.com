@@ -12,7 +12,9 @@
 
 ![Screenshot from 2025-04-19 17-08-25](./Screenshot from 2025-04-19 17-08-25.png)
 
-## Always ensure you securely back up your mnemonic in all cases below:  Option 1: Generate a new mnemonic using the provided generator.
+## Always ensure you securely back up your mnemonic in all cases below:
+
+## Option 1: Generate a new mnemonic using the provided generator.
 
 ![Screenshot from 2025-04-19 17-09-14](./Screenshot from 2025-04-19 17-09-14.png)
 
