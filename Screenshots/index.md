@@ -12,11 +12,13 @@
 
 ![Screenshot from 2025-04-19 17-08-25](./Screenshot from 2025-04-19 17-08-25.png)
 
-## Optionally you can generate a new mnemonic  
+## Always ensure you securely back up your mnemonic in all cases below:  Option 1: Generate a new mnemonic using the provided generator.
 
 ![Screenshot from 2025-04-19 17-09-14](./Screenshot from 2025-04-19 17-09-14.png)
 
-## Optionally, you can enter an existing BIP39 mnemonic generated elsewhere, or leave it empty to have the system create one.
+## Option 2: Leave the field empty to have the system automatically generate a new mnemonic. 
+
+## Option 3: Create a new mnemonic with your own tools and use it here (more complex for transaction management but safer if you are experienced).
 
 ![Screenshot from 2025-04-19 17-09-44](./Screenshot from 2025-04-19 17-09-44.png)
 
