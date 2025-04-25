@@ -20,7 +20,7 @@
 
 ## Option 2: Leave the field empty to have the system automatically generate a new mnemonic for you. 
 
-## Option 3: Create a new mnemonic with your own tools and use it here (more complex for transaction management but safer if you are experienced).
+## Option 3: Create a new mnemonic with your own tools, preferably offline, and use it here (more complex for transaction management but safer if you are experienced).
 
 ![Screenshot from 2025-04-19 17-09-44](./Screenshot from 2025-04-19 17-09-44.png)
 
@@ -30,7 +30,7 @@
 
 ![Screenshot from 2025-04-19 17-10-42](./Screenshot from 2025-04-19 17-10-42.png)
 
-## You now have many options. Below are a few examples.
+## You can now begin configuring your POS.
 
 ![Screenshot from 2025-04-19 17-25-40](./Screenshot from 2025-04-19 17-25-40.png)
 
